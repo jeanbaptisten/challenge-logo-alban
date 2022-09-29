@@ -1,0 +1,26 @@
+body {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 13vh;
+  width: 13vh;
+  border: 1px solid var(--circle-color);
+}
+
+.triangle {
+  position: absolute;
+  top: 46.3%;
+  left: 48.3%;
+  height: 4vh;
+  width: 4vh;
+  fill: transparent;
+  stroke: var(--triangle-color);
+  stroke-dasharray: 2px;
+  stroke-width: 2;
+}
